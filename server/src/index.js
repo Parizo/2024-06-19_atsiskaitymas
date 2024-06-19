@@ -6,6 +6,11 @@ const Blog = require('./models/blog')
 
 const UserModel = require('./models/Users')
 
+const Account = require('./models/account')
+
+
+
+
 const app = express();
 
 const cors = require('cors')
@@ -97,6 +102,41 @@ app.post('/postUsers', (req, res) => {
 })
 
 
+// app.get('/blogs', (req, res) => {
+//     Blog.find({}).then((blogs) => {
+//         res.send(blogs);
+//     }).catch((error) => {
+//         res.status(500).send(error);
+//     })
+// })
+
+// app.get('/account', (req, res) => {
+//     Account.find({}).then((account) => {
+//         res.send(account);
+//     }).catch((error) => {
+//         res.status(500).send(error);
+// })
+
+app.get('/getUsers', (req, res) => {
+    UserModel.find()
+    .then(users => res.json(users))
+    .catch(err => res.json(err))
+})
+
+app.get('/account', (req, res) => {
+    Account.find().then(account => res.json(account)).catch(err => res.json(err))
+})
+
+// app.get('/blogs/:id', (req, res) => {
+//     Blog.findById(req.params.id).then((blog) => {
+//      if (!blog) {
+//          return res.status(404).send();
+//      }
+//      res.send(blog);
+//     }).catch((error) => {
+//      res.status(500).send(error);
+//     })
+//  })
 
 
 

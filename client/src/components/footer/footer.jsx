@@ -10,7 +10,7 @@ export const Footer = () => {
       <footer>
         <div className='footerContainer'>
           <div className="copyOne">
-            <p className="CopyRight">Copyright &copy;2024; Desinged by <span className='designer'>Andrius Malikėnas</span></p>
+            <p className="CopyRight">Copyright &copy;2024; Sukurta <span className='designer'>Andrius Malikėnas</span></p>
           </div>
           <div className='socialIcons'>
             <a href="https://www.facebook.com/" target='_blank'><i className="fa-brands fa-facebook"></i></a>
