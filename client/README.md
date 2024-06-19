@@ -1,8 +1,18 @@
-# React + Vite
+Yra du failai 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+client 
+server
 
-Currently, two official plugins are available:
+visual studio code terminale 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+client
+parašome kelia iki client su "cd ./" komanda.
+esant client rašome "npn i"
+tada rašome npm run dev, 
+
+server
+parašome kelia iki server su "cd ./" komanda.
+esant server rašome "npn i"
+tada rašome npm run dev.
+
+Aplikacija sudaro tik vieša sritis todėl prisijungimų nėra.
