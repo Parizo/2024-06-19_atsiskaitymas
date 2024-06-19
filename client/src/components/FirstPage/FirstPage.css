@@ -1,0 +1,150 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 100%;
+}
+
+
+.content{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* position: relative; */
+    margin: 100px;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+.content button a {
+    color: #1d3124;
+}
+
+
+.content button a:hover {
+    color: #f6f4e8;
+}
+
+.content h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 72px;
+    padding-left: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    color: #1d3124;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background-color: #e59560;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .4s ease;
+}
+
+.content .cn .a {
+    text-decoration: none;
+    /* color: rgb(230, 49, 49); */
+    
+    transition: .3s ease;
+}
+
+.form a {
+    color: #bacec1;
+}
+
+.form p {
+    color: #bacec1;
+}
+
+.cn:hover{
+    background-color: black;
+}
+
+.content span {
+    color: #e59560;
+    font-size: 60px;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: #1d3124;
+    margin: 100px;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #bacec1 ;
+}
+
+.form input {
+    width: 100%;
+    height: 35px;
+    background: #f6f4e8;
+    border-top: none;
+    /* border-bottom: 20px solid black; */
+    border-right: none;
+    border-left: none;
+    color: #1d3124;
+    border-radius: 4px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnn{
+    width: 100%;
+    height: 40px;
+    background-color: #e59560;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* color: white; */
+    
+}
+
+.btnn:hover{
+background: white;
+/* color: red; */
+}
+
+input::placeholder {
+    color: #1d3124;
+}
+
+
+/* https://www.youtube.com/watch?v=CQZxeoQeo5c */
+
+

@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+header{
+	width: 100%;
+}
+
+nav {
+	background-color: #f6f4e8;
+	padding: 16px 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+	
+}
+
+.link{
+	display: inline-block;
+}
+
+@media only screen and (max-width: 1360px) {
+	nav {
+		flex-direction: column;
+		padding: 3vh 0;
+	}
+
+	.logo{
+		padding-bottom: 3vh;
+	}
+}
+
+@media only screen and (max-width: 755px){
+	nav{
+		padding: 3vh;
+	}
+}
+
+@media only screen and (max-width: 540px){
+	.logo{
+		padding-bottom: 6vh;
+	}
+}
+
+.logo {
+	font-size: 32px;
+	color: #fea2ec;
+	font-weight: bold;
+}
+
+.logo p {
+	color: #e59560;
+}
+ul {
+	list-style: none;
+}
+
+ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+ul li :hover {
+color: rgb(0, 0, 0);
+}
+
+ul li a {
+	text-decoration: none;
+	color: #1d3124;
+	font-size: 20px;
+}
+
+ul li a i{
+	margin-right: 5px;
+	color: #e59560;
+}
+
+ul li a i:hover{
+	margin-right: 5px;
+	color: #ffffff;
+}
+
+
+
+.logo-collor {
+	position: relative;
+	color: #ffffff;
+	outline: none;
+
+}
+
+
+.logged-name{
+	color: red;
+}
